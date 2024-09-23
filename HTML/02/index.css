@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'PermanentMarker';
+    src: url('/HTML/Assets/PermanentMarker-webfont.woff') format('woff');
+ }
+
+ :root {
+    --primary-color: #b44444;
+  }
+
+body {
+    background-color; #f3f3f3);
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+h1, h2, h4, nav, ul, li{
+    font-family: PermanentMarker;
+    text-align: center;
+}
+
+* {
+    box-sizing: content-box;
+}
+
+main, footer{
+    padding:  2rem 1,5rem;
+    max-width: 900px;
+    margin: 0 auto;
+} 
+img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 20%;
+    height: 20%;
+}
+
+.firstParagraph{
+    font-size: 20px;
+}
+
+a{
+    color: #6a5acd;
+    font: bold;
+}
+
+.firstList{
+    padding: 0;
+}
+
+.firstList:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer; 
+}
+
+
+li{
+    list-style: none;
+    padding: 3px;
+    margin-bottom: 5px;
+    background-color: chocolate;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.firstList :last-child{
+    margin-bottom: 0;
+    background-color: rgb(35, 35, 94);
+}
+
+h4{
+    font-family: PermanentMarker;
+    font-weight: bold;
+
+    
+}
+
+footer{
+    text-align: center;
+    font-size: 3rem;
+}
+
+p {
+    color: var(--primary-color);
+  }

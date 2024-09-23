@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'PermanentMarker';
+    src: url('Assets/PermanentMarker-webfont.woff') format('woff');
+ }
+ @font-face {
+    font-family: "PermanentMarker";
+    src: url();
+ }
+body {
+    background-color: rgb(219, 219, 230);
+    font-family: Poppins;
+}
+
+h1{
+    font-family: PermanentMarker;
+}
